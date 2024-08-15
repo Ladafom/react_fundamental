@@ -1,0 +1,29 @@
+.App {
+  width: 800px;
+  margin: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.margin-top-bottom{
+  margin: 15px 0 ;
+}
+
+.hr{
+  margin: 15px 0;
+  border: 1px solid teal;
+}
+
+.pagination{
+  margin: 20px 0;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.page.active{
+  transform: translateY(-5px);
+  outline: 1px solid teal;
+}

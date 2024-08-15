@@ -1,0 +1,8 @@
+.registration__link{
+  color: teal;
+}
+
+.registration__link:hover{
+  color: teal;
+  text-decoration: underline;
+}

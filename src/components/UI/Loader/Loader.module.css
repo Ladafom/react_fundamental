@@ -1,0 +1,20 @@
+.loader{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-top: 10px solid transparent;
+  border-left: 10px solid teal;
+  border-right: 10px solid teal;
+  border-bottom: 10px solid teal;
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
